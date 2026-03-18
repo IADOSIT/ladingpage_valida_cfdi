@@ -5,7 +5,7 @@ services:
     build: .
     container_name: valida-cfdi-landing-page
     ports:
-      - "8087:80"
+      - "8085:80"
     # volumes:
     #   - .:/usr/share/nginx/html
     restart: always
